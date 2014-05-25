@@ -1,5 +1,9 @@
 package screensframework;
 
+
+
+
+
 public interface ControlledScreen {
     
     //This method will allow the injection of the Parent ScreenPane

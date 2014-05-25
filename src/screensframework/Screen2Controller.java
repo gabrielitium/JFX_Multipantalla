@@ -1,6 +1,5 @@
 package screensframework;
 
-
 import java.net.URL;
 import java.util.ResourceBundle;
 
@@ -8,7 +7,8 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 
-public class Screen1Controller implements Initializable, ControlledScreen {
+
+public class Screen2Controller implements Initializable , ControlledScreen {
 
     ScreensController myController;
     /**
@@ -21,8 +21,8 @@ public class Screen1Controller implements Initializable, ControlledScreen {
     }
 
     @FXML
-    private void goToScreen2(ActionEvent event){
-       myController.setScreen(ScreensFramework.screen2ID);
+    private void goToScreen1(ActionEvent event){
+       myController.setScreen(ScreensFramework.screen1ID);
     }
     
     @FXML
@@ -30,7 +30,7 @@ public class Screen1Controller implements Initializable, ControlledScreen {
        myController.setScreen(ScreensFramework.screen3ID);
     }
 
-	public void initialize(URL arg0, ResourceBundle arg1) {
+	public void initialize(URL location, ResourceBundle resources) {
 		// TODO Auto-generated method stub
 		
 	}
